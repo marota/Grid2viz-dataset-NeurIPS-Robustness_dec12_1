@@ -7,5 +7,5 @@ setup(
    author='Man Foo',
    author_email='foomail@foo.com',
    #packages=['Grid2viz-dataset-NeurIPS-Robustness_dec12_1'],  #same as name
-   install_requires=['grid2viz-dataset-neurips', 'jupyter-server-proxy', 'jupyter-dash','grid2viz'], #external packages as dependencies
+   install_requires=['nbserverproxy', 'jupyter-server-proxy', 'jupyter-dash','grid2viz'], #external packages as dependencies
 )
